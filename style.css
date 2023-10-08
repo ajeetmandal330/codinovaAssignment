@@ -128,3 +128,34 @@
     text-decoration: none;
 }
 
+.card{
+   
+    margin: 20px;
+    border-radius: 3px;
+    /* border: 1px solid; */
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.418),rgba(255, 0, 0, 0.44)),url("https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3020s-mlk/media-gallery/desktop-inspiron-3020-sff-blue-gallery-1.psd?fmt=png-alpha&wid=800&hei=620");
+    /* background: linear-gradient(rgba(255, 0, 0, 0.185),rgba(255, 0, 0, 0.316),url("https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3020s-mlk/media-gallery/desktop-inspiron-3020-sff-blue-gallery-1.psd?fmt=png-alpha&wid=800&hei=620"); */
+    /* background-image: url("https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3020s-mlk/media-gallery/desktop-inspiron-3020-sff-blue-gallery-1.psd?fmt=png-alpha&wid=800&hei=620"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(rgba(255, 0, 0, 0.473),rgba(255, 0, 0, 0.336),url("https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3020s-mlk/media-gallery/desktop-inspiron-3020-sff-blue-gallery-1.psd?fmt=png-alpha&wid=800&hei=620")); */
+}
+.card img{
+    width: 100%;
+    height: 100%;
+
+}
+.card p{
+    font-size: small;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-part{
+    display: flex;
+    flex-wrap: wrap;
+}
