@@ -109,10 +109,17 @@
 }
 .button-center{
     margin-top: 5px;
-    
+    /* box-shadow: 0px 2px 10px 1px (71,71,0,52); */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button .red:hover{
+    background-color: rgb(0, 132, 255);
+}
+.button .green:hover{
+    background-color: #38fc02;
 }
 .green{
     padding: 10px 60px;
@@ -120,7 +127,7 @@
 }
 .red{
     padding: 10px 60px;
-    background-color: red;
+    background-color: #fc023c;
     
 }
 .button a{
